@@ -41,17 +41,18 @@ public class TestWordTemplate {
 		
 		//设置参数
 		map.put("title", "docx模板生成的内容");
-		map.put("user1", "张三");
-		map.put("user2", "李四");
-		map.put("text1", "上海");
+		map.put("user1", "张三2");
+		map.put("user2", "李四3");
+		map.put("text1", "上海r");
 		map.put("text2", "广州");
 		map.put("cell1", "1行1列");
 		map.put("cell2", "1行2列");
 		map.put("cell3", "2行1列");
 		map.put("cell4", "2行2列");
-		map.put("year", "2016");
+		map.put("year", "2016s");
 		map.put("month", "04");
 		map.put("day", "03");
+		map.put("user3","danni");
 	}
 	
 	public void testReplaceTag(){
